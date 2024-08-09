@@ -1,0 +1,21 @@
+class first {
+    public static void main(String[] args) {
+
+        String str1 = " ";
+        String str2 = "";
+        String str3 = "";
+        String str4 = "M";
+
+        System.out.println(str1.matches("\\s")); // there is space for this string
+        System.out.println(str2.matches("\\s"));
+        System.out.println(str3.matches("\\S"));
+        System.out.println(str4.matches("\\S"));
+
+    }
+}
+
+// output
+// true
+// false
+// false
+// true
