@@ -1,0 +1,14 @@
+class first {
+    public static void main(String[] args) {
+
+        String str1 = "z";       
+
+        System.out.println(str1.matches("[^manish]"));              //return ture beacuse the given string is not avaiable in the match() function.
+
+    }
+}
+
+// output
+// true
+
+
