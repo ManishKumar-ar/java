@@ -1,0 +1,52 @@
+class first {
+    public static void main(String[] args) {
+
+        String str1 = "abc";
+
+        System.out.println(str1.matches("[abcd]{3}"));                     /// it means there are 3 letters excatly
+
+    }
+}
+
+// output
+// true
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class first {
+    public static void main(String[] args) {
+
+        String str1 = "aaa";
+
+        System.out.println(str1.matches("[abcd]{3}")); 
+
+    }
+}
+
+// output
+// true
+
+
+
