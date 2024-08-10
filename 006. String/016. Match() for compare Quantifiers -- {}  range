@@ -1,0 +1,15 @@
+class first {
+    public static void main(String[] args) {
+
+        String str1 = "aaad";
+
+        System.out.println(str1.matches("[abcd]{3,7}"));   // the number of letters are from 3 to 7, otherwise it return false.
+
+    }
+}
+
+// output
+// true
+
+
+
