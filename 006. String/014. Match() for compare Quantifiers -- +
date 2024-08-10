@@ -1,0 +1,129 @@
+class first {
+    public static void main(String[] args) {
+
+        String str1 = "ab";
+
+        System.out.println(str1.matches("[abc]"));
+
+    }
+}
+
+// output
+// false
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+class first {
+    public static void main(String[] args) {
+
+        String str1 = "ab";
+
+        System.out.println(str1.matches("[abc]*")); // it means any elements appears at any number of times
+
+    }
+}
+
+// output
+// true
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+class first {
+    public static void main(String[] args) {
+
+        String str1 = "";
+
+        System.out.println(str1.matches("[abc]*")); // it means any elements appears at any number of times ( 0 or more )
+
+    }
+}
+
+// output
+// true
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+class first {
+    public static void main(String[] args) {
+
+        String str1 = "ab";
+
+        System.out.println(str1.matches("[abc]+"));   //  + means any elements appears ( 1 or more times)
+
+    }
+}
+
+// output
+// true
+
+
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+class first {
+    public static void main(String[] args) {
+
+        String str1 = "";
+
+        System.out.println(str1.matches("[abc]+")); //  + means any elements appears at ( 1 or more time )
+
+    }
+}
+
+// output
+// true
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
