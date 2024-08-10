@@ -1,0 +1,50 @@
+class first {
+    public static void main(String[] args) {
+
+        String str1 = "manisghvipin2006@gmail.com";
+
+        System.out.println(str1.matches(".*gmail.*"));
+    }
+}
+
+// output
+// true
+
+
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// more secure way ........................................................
+
+
+
+
+
+
+
+
+
+
+class first {
+    public static void main(String[] args) {
+
+        String str1 = "manisghvipin2006@gmail.com";
+
+        System.out.println(str1.matches("\\w*@gmail(.*)"));                 //  System.out.println(str1.matches("\\w*@gmail.*"));       /////   these are same.
+    }
+}
+
+// output
+// true
+
+
+
+
+
+
+
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
