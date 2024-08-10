@@ -1,0 +1,54 @@
+class first {
+    public static void main(String[] args) {
+
+       String str1 = "a";
+       String str2 = "abcd";
+
+       System.out.println(str1.matches("."));     // dot means any thing allowed but it was only one
+       System.out.println(str2.matches(".*"));     // dot means any thing allowed and * means at any number of times
+    }
+}
+
+// output
+// true
+// true
+
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+////////////////////////////////////////////////////////// example  - 2 ///////////////////////////////////////////////////////////
+
+class first {
+    public static void main(String[] args) {
+
+       String str1 = "a";
+       String str2 = "ab";
+       String str3 = "aaaaa";
+       String str4 = "aa7a";
+
+       System.out.println(str1.matches("[a-z]"));     // [] used for to compare the only one character
+       System.out.println(str2.matches("[a-z]"));     // [] return //false// because it was compare more thann one
+       System.out.println(str3.matches("[a-z]*"));     // * means any number of time the element appera but from the [] range
+       System.out.println(str4.matches("[a-z]*"));     // 7 is not come in the range of the a -z
+    }
+}
+
+// output
+// true
+// false
+// true
+// false
+
+
+
+
+
