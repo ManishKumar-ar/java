@@ -1,0 +1,22 @@
+
+
+public class Main {
+
+  static int maxi( int a , int b)       //this funciton is called from the main function that is static that meamns it was also an static function, otherwise it return an error.
+  {
+    if(a>b) return a;
+    else return b;
+  }
+  
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+    int result = maxi( 10,200);
+    System.out.println(result);
+  }
+
+}
+
+
+//output
+// Hello world!
+// 200
